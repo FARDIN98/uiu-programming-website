@@ -9,8 +9,7 @@
 
 .left-side{
     margin-top: 162px;
-    width: 600px;
-    display: block;
+    
 }
 
 .join{
@@ -38,4 +37,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 21px;
+}
+
+.hero{
+    margin-bottom: 500px;
 }
