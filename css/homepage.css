@@ -42,3 +42,15 @@
 .hero{
     margin-bottom: 500px;
 }
+
+.question{
+    background-color: #FF9C64;
+    width: 176px;
+    height: 59px;
+    border-radius: 5px;
+    font-size: 19px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    margin-left: 500px;
+}
