@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Discussion/Discussion.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Discussion</title>
+</head>
+<body>
+    <!-- Navbar starts here -->
+    <section>
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid ms-4">
+              <img src="/images/logo.png" alt="Logo" width="45" height="50" class="d-inline-block align-text-top">
+              <a class="navbar-brand" href="/homepage.html">Code<span style="color: #FF5C00;">Hunter</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 "> 
+
+
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold " aria-current="page" href="#">Contest</a>
+                  </li>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="/problems/problems.html" target="_blank">Problems</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">LeaderBoard</a>
+                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="/Discussion/Discussion.html">Discussion</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                   
+                  <button class="btn btn-light fw-bold fs-5" type="submit"> <img class="mb-1" src="/images/lock.svg" alt=""><a href="/index.html" target="_blank" style="text-decoration: none; color: black;" >Login</a></button>
+                </form>
+              </div>
+            </div>
+            
+          </nav>
+
+    </section>
+    
+    <!-- Navbar ends here -->
+
+
+    <!-- Discussion panel starts here -->
+
+    <section>
+
+        <div class="container">
+            <div class="my-container">
+              <!-- <textarea class="form-control" rows="5" placeholder="Write your comment here"></textarea> -->
+              <textarea id="myTextarea" ></textarea>
+              <button class="btn btn-success mt-3">Post Comment</button>
+              <div class="mt-3">
+                <h5>Username:</h5>
+                <p>Comment text goes here.</p>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+
+    <!-- Discussion panel ends here -->
+
+    <!-- Footer section starts here -->
+
+    <!-- Footer section starts here -->
+
+    <section>
+
+        <footer class="mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="footer-logo">
+                  <!-- <img src="logo.png" alt="Company logo"> -->
+                  <img src="/images/logo.png" alt="Logo" width="45" height="50" class=" d-inline-block align-text-top">
+                  <!-- <h4>Company Name</h4> -->
+                  <a class="footer-title" href="#">Code<span style="color: #FF5C00;">Hunter</span></a> <br>  
+                </div>
+                <h6 class="mt-2">A competitive programming platform for UIUans</h6>
+                <div class="footer-social mt-3">
+                  <a href=""><img src="https://img.icons8.com/color/48/null/linkedin.png"/></a>
+                  <a href=""><img src="https://img.icons8.com/color/48/null/facebook-new.png"/></a>
+                  <a href=""><img src="https://img.icons8.com/fluency/48/null/instagram-new.png"/></a>
+                </div>
+                
+              </div>
+              <div class="col-md-6">
+                <ul class="footer-links">
+                  <li><a style="text-decoration: none; font-size: 23px;" href="#">Contact Us</a></li> <br>
+                  <li><a style="text-decoration: none; font-size: 23px;" href="#">Login</a></li> <br>
+                  <li><a style="text-decoration: none; font-size: 23px;" href="#">Signup</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+      </section>
+
+      <!-- Footer section ends here -->
+
+    <!-- Js bundler for bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.tiny.cloud/1/egkaa115e0rq73xx1il4n4fcf77quncybgb5yebvycsdsjb2/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script src="/Discussion/script.js"></script>
+
+</body>
+</html>
