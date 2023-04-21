@@ -170,6 +170,60 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* CSS Codes OF Contest Page */
+
+.contest-container {
+  background-color: #D9D9D9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0,0,0,.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contest-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.contest-container button {
+  margin-top: 20px;
+}
+
+.arena-1{
+  background-color: #FF9C64;
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+}
+
+.arena-2{
+  background-color: #6DC6DC;
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+}
+
+.arena-3{
+  background-color: #e9d46a;
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+}
+
+
 /* Footer section */
 footer {
   background-color: #f8f9fa;
