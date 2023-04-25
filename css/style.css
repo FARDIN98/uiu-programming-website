@@ -223,6 +223,60 @@ h1 {
   line-height: 22px;
 }
 
+/* CSS codes of problem list */
+
+.container-problem {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  height: auto;
+}
+
+.container-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.table-container {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-cell:first-child {
+  border-right: 1px solid #ddd;
+  width: 150px;
+  font-weight: bold;
+}
+
+.table-cell:last-child {
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .table-cell:first-child {
+    width: 100px;
+  }
+  
+  .table-cell:last-child {
+    padding-left: 10px;
+  }
+}
+
 
 /* Footer section */
 footer {
